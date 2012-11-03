@@ -1,0 +1,9 @@
+Package: oh-rest-client
+Version: 0.1-${BUILD_NUMBER}
+Section: httpd
+Priority: optional
+Architecture: all
+Depends: oh-tomcat-app
+Maintainer: pete reisinger <p.reisinger@gmail.com>
+Description: rest client
+ web application for testing REST services
