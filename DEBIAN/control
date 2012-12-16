@@ -1,5 +1,5 @@
 Package: oh-rest-client
-Version: 0.1-${BUILD_NUMBER}
+Version: ${VERSION}
 Section: httpd
 Priority: optional
 Architecture: all
