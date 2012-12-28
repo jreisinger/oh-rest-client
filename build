@@ -33,7 +33,7 @@ build $VERSION
 # create deb tree
 APP_LOG_DIR=./$TOPDIR/var/log/$PACKAGE
 APP_CONF_DIR=./$TOPDIR/etc/$PACKAGE
-APP_WEB_DIR=./$TOPDIR/var/app/$PACKAGE/webapps
+APP_WEB_DIR=./$TOPDIR/opt/$PACKAGE/webapps
 APP_WORK_DIR=./$TOPDIR/var/cache/$PACKAGE
 
 mkdir -p $APP_LOG_DIR
