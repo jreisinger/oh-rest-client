@@ -12,7 +12,9 @@ Create deb package
 
 To create deb package, you need __oh-deb-build__ 
 (https://github.com/pete911/oh-deb-build) installed. Run:
+
     ./build <build_number>
+
 Which will generate __oh-rest-client_0.1-<build_number>_all.deb__ package.
 Before you install the package you will need __oh-tomcat-app__ 
 (https://github.com/pete911/oh-tomcat-app) installed.
